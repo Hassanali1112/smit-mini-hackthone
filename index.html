@@ -1,79 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <!-- bootstap cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <title>mini hackathone</title>
-</head>
-<body>
-    <!-- header section -->
-    <nav class="navbar navbar-expand-lg navbar-light ">
-        <div class="container ">
-            <div class="navmain">
-                <div class="left">
-                    <a class="navbar-brand" href="#">
-                        <img src="./hack/Logo.png"  class="logo" alt="">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="right">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#">About us</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                          </li>
-                          <li class="nav-item ms-2">
-                            <a class="nav-link" href="#">Use Case</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                          </li>
-                          <li class="nav-item border border-dark ">
-                            <a class="nav-link" href="#">Request a quote</a>
-                          </li>
-                          
-                          
-                        </ul>
-                      </div>
-                </div>
 
-            </div>
-         
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>mini hackathone</title>
+</head>
+
+<body>
+  <!-- header section -->
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container bg-danger">
+      <div class="navmain">
+        <div class="left">
+          <a class="navbar-brand" href="#">
+            <img src="./hack/Logo.png" class="logo" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="right">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link" href="#">Use Case</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item border border-dark ">
+                <a class="nav-link" href="#">Request a quote</a>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </nav>
+  <!-- main -->
+  <main>
+    <!-- hero section -->
+    <div class="container">
+      <div class=" hero-section">
+        <div class=" hero-left">
+          <h2 class="h1 main-heading">Navigating the digital landscape for success</h2>
+          <p class="hero-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repudiandae excepturi
+            similique reprehenderit labore commodi modi quasi a</p>
+          <span class="blackbtn hero-btn">Book a consultation</span>
+
+        </div>
+        <div class=" hero-right">
+          <img src="./hack/Illustration.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row  justify-content-between">
+        <div class="left col-lg-5  links top-links">
+          <div class="medialink">
+            <img src="./hack/Company logo.png" alt="img-fluid">
+          </div>
+          <div class="medialink">
+            <img src="./hack/Company logo (1).png" alt="img-fluid">
+          </div>
+          <div class="medialink">
+            <img src="./hack/Company logo (2).png" alt="img-fluid">
+          </div>
+
+        </div>
+        <div class="right col-lg-5  links bottom-links">
+          <div class="medialink">
+            <img src="./hack/Company logo (3).png" alt="img-fluid">
+          </div>
+          <div class="medialink">
+            <img src="./hack/Company logo (4).png" alt="img-fluid">
+          </div>
+          <div class="medialink">
+            <img src="./hack/Company logo (5).png" alt="img-fluid">
+          </div>
         
         </div>
-      </nav>
-      <!-- main -->
-      <main>
-        <!-- hero section -->
-        <div class="container">
-            <div class="row hero-section">
-                <div class="col-lg-6 hero-left">
-                    <h2 class="h1">Navigating the digital landscape for success</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repudiandae excepturi similique reprehenderit labore commodi modi quasi a</p>
-                    <span class="blackbtn">Book a consultation</span>
-                </div>
-                <div class="col-lg-6 hero-right">
-                    <img src="./hack/Illustration.png" alt="img-fluid">
-                </div>
-            </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="about-wrapper py-5">
+        <div class="about-top">
+          <h2 class=" greenbtn">Services</h2>
+          <p class=" lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique perferendis, quasi aperiam sit amet consectetur, adipisicing elit. Similique per</p>
         </div>
-      </main>
-    
+        <div class="about-card">
+          <div class="card-left cards">
+            <div class="left-area ">
+              <h2 class="h6 greenbtn">Search engine optimization</h2>
+              <div class="icon d-flex gap-1 align-items-center">
+                <div class="image">
+                  <img src="./hack/Icon.png" alt="">
+                </div>
+                <span>learn more</span>
+              </div>
+            </div>
+            <div class="right-area">
+              <img src="./hack/Illustration (2).png" alt="">
+            </div>
+          </div>
+          <div class="card-right cards">
+            <div class="left-area"></div>
+            <div class="right-area"></div>
+          </div>
+
+        </div>
+        <div class="about-bottom"></div>
+      </div>
+    </div>
+  </main>
+
 </body>
+
 </html>
