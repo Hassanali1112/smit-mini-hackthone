@@ -21,7 +21,7 @@
 <body>
   <!-- header section -->
   <nav class="navbar navbar-expand-lg navbar-light ">
-    <div class="container bg-danger">
+    <div class="container">
       <div class="navmain">
         <div class="left">
           <a class="navbar-brand" href="#">
@@ -69,7 +69,7 @@
   <main>
     <!-- hero section -->
     <div class="container">
-      <div class=" hero-section">
+      <div class=" hero-section py-2">
         <div class=" hero-left">
           <h2 class="h1 main-heading">Navigating the digital landscape for success</h2>
           <p class="hero-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repudiandae excepturi
@@ -82,6 +82,7 @@
         </div>
       </div>
     </div>
+    <!-- media icon -->
     <div class="container">
       <div class="row  justify-content-between">
         <div class="left col-lg-5  links top-links">
@@ -106,15 +107,17 @@
           <div class="medialink">
             <img src="./hack/Company logo (5).png" alt="img-fluid">
           </div>
-        
+
         </div>
       </div>
     </div>
+    <!-- about section -->
     <div class="container">
       <div class="about-wrapper py-5">
         <div class="about-top">
           <h2 class=" greenbtn">Services</h2>
-          <p class=" lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique perferendis, quasi aperiam sit amet consectetur, adipisicing elit. Similique per</p>
+          <p class=" lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique perferendis, quasi
+            aperiam sit amet consectetur, adipisicing elit. Similique per</p>
         </div>
         <div class="about-card">
           <div class="card-left cards">
@@ -131,15 +134,97 @@
               <img src="./hack/Illustration (2).png" alt="">
             </div>
           </div>
-          <div class="card-right cards">
-            <div class="left-area"></div>
-            <div class="right-area"></div>
+          <div class="card-right cards greenbtn">
+            <div class="left-area ">
+              <h2 class="h6 whitebtn">Search engine optimization</h2>
+              <div class="icon d-flex gap-2 align-items-center">
+                <div class="image">
+                  <img src="./hack/Icon.png" alt="">
+                </div>
+                <span>learn more</span>
+              </div>
+            </div>
+            <div class="right-area">
+              <img src="./hack/tokyo-selecting-a-value-in-the-browser-window 1 (1).png" alt="">
+            </div>
           </div>
 
         </div>
-        <div class="about-bottom"></div>
+        <div class="about-bottom">
+          <h2 class=" greenbtn">Our Working Progress</h2>
+          <p class=" lead">Step-by-Step Guide to Achieving Your Business Goal</p>
+        </div>
       </div>
     </div>
+    <!-- accordion section -->
+    <div class="container">
+      <div class="accordion d-flex flex-column py-3  gap-4" id="accordionExample">
+        <div class="accordion-item border ">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="false" aria-controls="collapseOne">
+              <span>01</span> Construction
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+              plugin adds
+              the appropriate classes that we use to style each element. These classes control the overall appearance,
+              as well
+              as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+              our
+              default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin
+              adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as
+              well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+              overriding our
+              default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin
+              adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as
+              well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+              overriding our
+              default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
 </body>
