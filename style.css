@@ -200,6 +200,81 @@ li.border-dark {
     max-width: 230px;
 }
 
+.accordion-button::after {
+    display: none;
+    content: "+";
+}
+
+.accordion-item {
+    border-radius: 40px;
+    padding: 1rem .5rem;
+}
+
+.custom-accordion-button::before {
+    content: '+';
+    font-weight: bold;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    right: 10px;
+    font-size: 2rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 .55rem; */
+}
+
+.custom-accordion-button:not(.collapsed)::before {
+    content: '-';
+    font-size: 2rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(0);
+    margin-bottom: 8px;
+}
+
+.contact-para {
+    font-size: .8rem;
+    width: 30%;
+}
+.contact-us .bottom{
+    border-radius: 15px;
+
+}
+ .contact-img {
+     height: 300px;
+ }
+ .form-control{
+    border-radius: 10px !important;
+ }
+ .form-img{
+    float: right;
+    height: 100%;
+   width: 100%;
+   align-self: center;
+ }
+ .form-img img{
+    
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    object-fit: cover;
+    position: relative;
+    left: 100px;
+ }
+.form{
+    padding: 1rem 3rem;
+}
+
 @media screen and (max-width: 992px) {
     .navmain .left {
         display: flex;
@@ -271,5 +346,27 @@ li.border-dark {
         gap: 1rem;
     }
 
+    .contact-us {
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .contact-us h4 {
+       width: fit-content;
+       margin: 0 auto;
+    }
+
+    .contact-us p {
+        width: 100%;
+        width: auto;
+        display: inline-block;
+    }
+    .form{
+        
+    }
+    .form-img{
+        display: none;
+    }
+   
 
 }
